@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vKN2qS2zbTszFHIzibZfuIKwkdGmPq+twQMUTMynzr0bQmaG4XnMc5og4HRh9JRAD7IDgzKGcdwKWsmDf65UvQ==",
+  "dgSpecHash": "CMo3XB++9dCPsh3mBs1A3IGGfDE2CKkKXneFZV//WL/VYFoNUjXIROymj0iFZiOXm7VHdwRLvCkNmzPmuNlxFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
+  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\digdr\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

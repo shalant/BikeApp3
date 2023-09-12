@@ -14,6 +14,7 @@ namespace BloggieToBike.Web.Data
         public DbSet<Tag> Tags { get; set; }
         public DbSet<BikeRouteLike> BikeRouteLikes { get; set; }
         public DbSet<BikeRouteComment> BikeRouteComments { get; set; }
-        public DbSet<BloggieToBike.Models.NewBikeRoute> NewBikeRoute { get; set; } = default!;
+        public DbSet<NewBikeRoute> NewBikeRoute { get; set; } = default!;
+        public DbSet<Event> Events { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj": {}
+    "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj": {}
   },
   "projects": {
-    "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj": {
+    "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
+        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
         "projectName": "BloggieToBike",
-        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
+        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\BloggieToBike.csproj",
         "packagesPath": "C:\\Users\\digdr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\digdr\\Documents\\coding\\BloggieToBike2\\BloggieToBike\\BloggieToBike\\obj\\",
+        "outputPath": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\digdr\\AppData\\Roaming\\NuGet\\NuGet.Config",
