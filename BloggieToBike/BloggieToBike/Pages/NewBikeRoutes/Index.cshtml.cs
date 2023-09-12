@@ -12,9 +12,9 @@ namespace BloggieToBike.Pages.NewBikeRoutes
 {
     public class IndexModel : PageModel
     {
-        private readonly BloggieToBike.Web.Data.BloggieToBikeDbContext _context;
+        private readonly BloggieToBikeDbContext _context;
 
-        public IndexModel(BloggieToBike.Web.Data.BloggieToBikeDbContext context)
+        public IndexModel(BloggieToBikeDbContext context)
         {
             _context = context;
         }

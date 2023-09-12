@@ -30,16 +30,19 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Index"> Home</a>
                         </li>
-                        <li class="nav-item">
+                        @*<li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/BikeRoutes/Index">Bike Routes</a>
+                        </li>*@
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-page="/NewBikeRoutes/Index">Bike Routes</a>
                         </li>
                         <li class="nav-item">
                             @*<a class="nav-link" asp-area="" asp-page="./Events/">Events</a>*@
                             <a class="nav-link" href="/Events">Events</a>
                         </li>
-                        <li class="nav-item">
+                        @*<li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/NewBikeRoutes/Index">New Bike Routes</a>
-                        </li>
+                        </li>*@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
@@ -101,7 +104,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-
+    <script src="https://strava-embeds.com/embed.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

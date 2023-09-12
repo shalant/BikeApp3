@@ -59,7 +59,7 @@ namespace BloggieToBike.Pages.NewBikeRoutes
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/NewBikeRoutes/Index");
         }
     }
 }
