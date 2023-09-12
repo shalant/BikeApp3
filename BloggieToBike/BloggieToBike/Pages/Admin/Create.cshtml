@@ -23,15 +23,55 @@
                     <span asp-validation-for="NewBikeRoute.Name" class="text-danger"></span>
                 </div>
                 <div class="form-group">
+                    <label asp-for="NewBikeRoute.Length" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.Length" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.Length" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.Elevation" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.Elevation" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.Elevation" class="text-danger"></span>
+                </div>
+                <div class="form-group">
                     <label asp-for="NewBikeRoute.Direction" class="control-label"></label>
                     <input asp-for="NewBikeRoute.Direction" class="form-control" />
                     <span asp-validation-for="NewBikeRoute.Direction" class="text-danger"></span>
                 </div>
                 <div class="form-group">
-                    <label asp-for="NewBikeRoute.Length" class="control-label"></label>
-                    <input asp-for="NewBikeRoute.Length" class="form-control" />
-                    <span asp-validation-for="NewBikeRoute.Length" class="text-danger"></span>
+                    <label asp-for="NewBikeRoute.Content" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.Content" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.Content" class="text-danger"></span>
                 </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.ShortDescription" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.ShortDescription" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.ShortDescription" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.FeaturedImageUrl" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.FeaturedImageUrl" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.FeaturedImageUrl" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.StravaLink" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.StravaLink" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.StravaLink" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.PublishedDate" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.PublishedDate" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.PublishedDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NewBikeRoute.Author" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.Author" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.Author" class="text-danger"></span>
+                </div>
+                @*<div class="form-group">
+                    <label asp-for="NewBikeRoute.Visible" class="control-label"></label>
+                    <input asp-for="NewBikeRoute.StravaLink" class="form-control" />
+                    <span asp-validation-for="NewBikeRoute.StravaLink" class="text-danger"></span>
+                </div>*@
                 <br />
                 <div class="form-group">
                     <input type="submit" value="Create" class="btn btn-primary" />

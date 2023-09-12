@@ -14,9 +14,9 @@ namespace BloggieToBike.Pages.NewBikeRoutes
     [Authorize(Roles = "SuperAdmin")]
     public class CreateModel : PageModel
     {
-        private readonly BloggieToBike.Web.Data.BloggieToBikeDbContext _context;
+        private readonly BloggieToBikeDbContext _context;
 
-        public CreateModel(BloggieToBike.Web.Data.BloggieToBikeDbContext context)
+        public CreateModel(BloggieToBikeDbContext context)
         {
             _context = context;
         }
@@ -41,7 +41,7 @@ namespace BloggieToBike.Pages.NewBikeRoutes
             _context.NewBikeRoute.Add(NewBikeRoute);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/NewBikeRoutes/Index");
         }
     }
 }

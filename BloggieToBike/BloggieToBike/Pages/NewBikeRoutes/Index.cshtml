@@ -13,7 +13,7 @@
     
     @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
     {
-        <a asp-page="Create">Create New</a>
+        <a asp-page="/Admin/Create">Create New</a>
         <h1>Admin Panel</h1>
     }
 </p>
@@ -71,12 +71,12 @@
             @foreach (var item in Model.NewBikeRoute)
             {
 
-            <div class="card-body ">
+            <div class="card-body card-body_custom">
                 <h5 class="card-title">@item.Name</h5>
                 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="@item.StravaLink"></div>
             </div>
             }
-            </div>
+        </div>
 
         </div>
     </div>
