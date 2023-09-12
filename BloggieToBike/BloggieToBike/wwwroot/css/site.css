@@ -165,6 +165,7 @@ nav ul {
 
 .card-styles {
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-top: 5rem;
     width: 18rem;

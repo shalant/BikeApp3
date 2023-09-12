@@ -4,16 +4,19 @@ using BloggieToBike.Web.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace BloggieToBike.Web.Migrations
+namespace BloggieToBike.Migrations
 {
     [DbContext(typeof(BloggieToBikeDbContext))]
-    partial class BloggieToBikeDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230912141356_addMoreFieldsToBikeRouteModel")]
+    partial class addMoreFieldsToBikeRouteModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

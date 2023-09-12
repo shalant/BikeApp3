@@ -13,7 +13,7 @@
     
     @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
     {
-        <a asp-page="Create">Create New</a>
+        <a asp-page="/Admin/Create">Create New</a>
         <h1>Admin Panel</h1>
     }
 </p>
