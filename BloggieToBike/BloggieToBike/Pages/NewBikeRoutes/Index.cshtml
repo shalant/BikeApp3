@@ -10,9 +10,10 @@
 <h1>List View</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    
     @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
     {
+        <a asp-page="Create">Create New</a>
         <h1>Admin Panel</h1>
     }
 </p>
@@ -35,7 +36,8 @@
 @foreach (var item in Model.NewBikeRoute) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Name)
+                    <a asp-page="./Details" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a>
+                
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Direction)
@@ -52,7 +54,7 @@
                     }
                     else
                     {
-                        <a asp-page="/Admin/Details" asp-route-id="@item.Id">Details</a>
+                        <a asp-page="./Details" asp-route-id="@item.Id"><i class="fa-solid fa-circle-info"></i></a>
                     }
             </td>
         </tr>

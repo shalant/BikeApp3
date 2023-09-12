@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BloggieToBike.Pages.NewBikeRoutes
 {
+    [Authorize(Roles = "SuperAdmin")]
     public class CreateModel : PageModel
     {
         private readonly BloggieToBike.Web.Data.BloggieToBikeDbContext _context;

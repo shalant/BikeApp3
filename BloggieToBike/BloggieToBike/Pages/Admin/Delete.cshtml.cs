@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using BloggieToBike.Models;
 using BloggieToBike.Web.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BloggieToBike.Pages.NewBikeRoutes
 {
+    [Authorize(Roles = "SuperAdmin")]
     public class DeleteModel : PageModel
     {
         private readonly BloggieToBike.Web.Data.BloggieToBikeDbContext _context;
