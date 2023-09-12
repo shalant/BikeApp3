@@ -13,6 +13,7 @@
 *.userosscache
 *.sln.docstates
 launchSettings.json
+ToDoList.docx
 
 # Build results
 artifacts/
