@@ -68,7 +68,8 @@ namespace BloggieToBike.Pages.NewBikeRoutes
                 }
             }
 
-            return RedirectToPage("./Index");
+            //return RedirectToPage("./Index");
+            return RedirectToPage("/NewBikeRoutes/Index");
         }
 
         private bool NewBikeRouteExists(int id)
