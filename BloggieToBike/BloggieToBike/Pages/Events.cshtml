@@ -48,17 +48,19 @@
                         @Html.DisplayFor(modelItem => item.EventDate)
                     </td>
                     <td>
+                            <a href="/NewBikeRoutes/Details?id=@item.NewBikeRouteId">@item.NewBikeRoute.Name</a>
+@* 
                             @if(item.NewBikeRouteId == 3)
                             {
-                                <a href="/NewBikeRoutes/Details?id=3">WaterFall Glen</a>
+                                <a href="/NewBikeRoutes/Details?id=@item.NewBikeRouteId">@item.NewBikeRoute.Name</a>
                             }
                             else if (item.NewBikeRouteId == 4)
                             {
-                                <a href="/NewBikeRoutes/Details?id=4">Specialized Route South</a>
+                                <a href="/NewBikeRoutes/Details?id=@item.NewBikeRouteId">@item.NewBikeRoute.Name</a>
 
-                            }
-                            @Html.DisplayFor(modelItem => item.NewBikeRoute.Name)
-                        </td>
+                            } *@
+                            @* @Html.DisplayFor(modelItem => item.NewBikeRoute.Name) *@
+                    </td>
                     <td>
                         @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
                         {
