@@ -1,0 +1,10 @@
+Server name
+bikeroutesfromoakpark-server
+Engine
+SQLAzure
+Region
+East US
+Username
+bikeroutesfromoakpark-server-admin
+Password
+5Z152Z46WUKR18NF$

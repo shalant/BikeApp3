@@ -12,5 +12,6 @@
     <WebStackScaffolding_DbContextTypeFullName>BloggieToBike.Web.Data.BloggieToBikeDbContext</WebStackScaffolding_DbContextTypeFullName>
     <RazorPage_SelectedScaffolderID>RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/Common/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
+    <NameOfLastUsedPublishProfile>BikeRoutesFromOP - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
