@@ -14,7 +14,18 @@
 @if (signInManager.IsSignedIn(User) && User.IsInRole("Admin"))
 {
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-6">
+            <div class="card card-styles">
+                <div class="card-body ">
+                    <h5 class="card-title">
+                        @Html.DisplayFor(model => model.NewBikeRoute.Name)
+                    </h5>
+                    <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="@Html.DisplayFor(model => model.NewBikeRoute.StravaLink)"></div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6 detail-column">
             <form method="post">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                 <input type="hidden" asp-for="NewBikeRoute.Id" />
