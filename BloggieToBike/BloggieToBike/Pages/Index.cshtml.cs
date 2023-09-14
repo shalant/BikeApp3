@@ -18,12 +18,14 @@ namespace BloggieToBike.Pages.IndexModel
         }
 
         public IList<NewBikeRoute> NewBikeRoute { get; set; } = default!;
+        public IList<Event> Events { get; set; } = default!;
 
         public async Task OnGetAsync()
         {
             if (_context.NewBikeRoute != null)
             {
                 NewBikeRoute = await _context.NewBikeRoute.ToListAsync();
+                Events = await _context.Events.ToListAsync();
             }
         }
     }
