@@ -48,26 +48,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXNlcnNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/BikeRoutes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlrZVJvdXRlc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/BikeRoutes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlrZVJvdXRlc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/BikeRoutes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlrZVJvdXRlc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/BikeRoutes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlrZVJvdXRlc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/BikeRoutes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmlrZVJvdXRlc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/digdr/Documents/coding/BikeApp3/BloggieToBike/BloggieToBike/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

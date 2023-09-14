@@ -1,4 +1,5 @@
 ﻿@page
+@using BloggieToBike.Pages.IndexModel;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -75,21 +76,20 @@
             <h2 class="mb-5 display-3">Popular</h2>
 
             <div class="mb-5">
-                @if(Model.Featured == true)
                 {
-                    foreach (var tag in Model.Tags)
+                foreach (var item in Model.NewBikeRoute)
                     {
-                        <a href="/tags/@tag.Name">
+                        @* <a href="@item.Name">
                             <span class="badge bg-dark">@tag.Name</span>
 
-                        </a>
+                        </a> *@
                     }
                 }
             </div>
 
-            @if (Model.Routes != null && Model.Routes.Any())
+            @if (Model.NewBikeRoute != null && Model.NewBikeRoute.Any())
             {
-                foreach (var route in Model.Routes)
+                foreach (var route in Model.NewBikeRoute)
                 {
                     <div class="mb-5 bg-light box-shadow">
                         <img src="@route.FeaturedImageUrl" alt="@route.Name" class="mb-2 d-block img-fluid" />
