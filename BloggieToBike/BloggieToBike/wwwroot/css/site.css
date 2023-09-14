@@ -7,6 +7,8 @@
 
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -17,11 +19,6 @@ html {
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-    position: relative;
-    min-height: 100%;
 }
 
 body {
@@ -35,12 +32,14 @@ header {
     /*    color: #fff;
 */ padding: 1rem;
     display: flex;
-    justify-content: space-between;
+/*    justify-content: space-between;
+*/    
+    justify-content: end;
     align-items: center;
 }
 
 h2 {
-    color: #353630;
+    /*color: #353630;*/
     text-decoration: none;
 }
 
@@ -75,13 +74,50 @@ nav ul {
 .nav-right {
 }
 
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x)
+}
+
+.justify-content-lg-end {
+    justify-content: flex-end !important
+}
+
+.me-lg-3 {
+    margin-right: 1rem !important
+}
+
 .custom-toggler {
     color: #e1ad01;
 }
 
 /* Hero section styles */
 .hero {
-    background-image: url('../images/bikePic.jpg');
+    background-image: url('../images/shutterstock_693377374.jpg') ;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -104,12 +140,14 @@ nav ul {
 
 .hero-content {
     text-align: center;
-    color: #e1ad01;
+    /*color: #e1ad01;*/
+    /*color: #545761;*/
+    color: #2D3033;
     text-shadow: 2px 2px 11px rgba(225,173,1,0.95);
 }
 
 .hero h1 {
-    font-size: 3rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
@@ -121,25 +159,26 @@ nav ul {
 /*animations*/
 @-webkit-keyframes slidein {
     from {
-        background-position: top;
-        background-size: 3000px;
+        background-position: -100px 0px;
+        background-size: 2750px;
     }
 
     to {
-        background-position: -100px 0px;
-        background-size: 2750px;
+        background-position: top;
+        background-size: 3000px;
     }
 }
 
 @keyframes slidein {
     from {
-        background-position: top;
-        background-size: 3000px;
+        background-position: -100px 0px;
+        background-size: 2750px;
+        
     }
 
     to {
-        background-position: -100px 0px;
-        background-size: 2750px;
+        background-position: top;
+        background-size: 3000px;
     }
 }
 
@@ -292,3 +331,5 @@ footer {
         background-attachment: scroll;
     }
 }
+
+

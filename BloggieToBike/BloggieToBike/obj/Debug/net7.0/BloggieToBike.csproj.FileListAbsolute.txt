@@ -511,6 +511,7 @@ C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\n
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout13Sep.cshtml.rz.scp.css
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\scopedcss\Pages\Shared\_LayoutBloggie.cshtml.rz.scp.css
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\scopedcss\bundle\BloggieToBike.styles.css
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\scopedcss\projectbundle\BloggieToBike.bundle.scp.css
