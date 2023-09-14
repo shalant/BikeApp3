@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ow0XTY4Q46EceWgZkAGRN9M/oMFKGbczVU+JSmnPYd8=",
+  "Hash": "mVxdDzidIQR2P33GBqYa/Q3KenP/jBH7B7Wrsaee8jM=",
   "Source": "BloggieToBike",
   "BasePath": "_content/BloggieToBike",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\wwwroot\\css\\theme.css",
+      "SourceId": "BloggieToBike",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\wwwroot\\",
+      "BasePath": "_content/BloggieToBike",
+      "RelativePath": "css/theme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\theme.css"
     },
     {
       "Identity": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\wwwroot\\favicon.ico",

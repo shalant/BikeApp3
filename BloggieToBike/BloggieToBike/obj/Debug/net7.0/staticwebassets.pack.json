@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\wwwroot\\css\\theme.css",
+      "PackagePath": "staticwebassets\\css\\theme.css"
+    },
+    {
       "Id": "C:\\Users\\digdr\\Documents\\coding\\BikeApp3\\BloggieToBike\\BloggieToBike\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
