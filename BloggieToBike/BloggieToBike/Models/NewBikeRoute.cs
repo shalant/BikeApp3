@@ -17,6 +17,6 @@ namespace BloggieToBike.Models
         public string Author { get; set; }
         public bool Featured { get; set; }
 
-        public ICollection<Event> Events { get; }
+        public ICollection<Event>? Events { get; }
     }
 }
