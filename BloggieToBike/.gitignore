@@ -28,6 +28,7 @@ msbuild.err
 msbuild.wrn
 msbuild.binlog
 msbuild.ProjectImports.zip
+Bin/
 
 # Visual Studio 2015
 .vs/
