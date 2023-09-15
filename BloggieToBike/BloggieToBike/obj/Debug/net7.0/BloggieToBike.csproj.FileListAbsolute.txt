@@ -259,6 +259,7 @@ C:\Users\digdr\Documents\coding\BloggieToBike2\BloggieToBike\BloggieToBike\bin\D
 C:\Users\digdr\Documents\coding\BloggieToBike2\BloggieToBike\BloggieToBike\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\digdr\Documents\coding\BloggieToBike2\BloggieToBike\BloggieToBike\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\digdr\Documents\coding\BloggieToBike2\BloggieToBike\BloggieToBike\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+<<<<<<< Updated upstream
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\bin\Debug\net7.0\appsettings.json
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\bin\Debug\net7.0\BloggieToBike.staticwebassets.runtime.json
@@ -520,3 +521,5 @@ C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\n
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\BloggieToBike.pdb
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\BloggieToBike.genruntimeconfig.cache
 C:\Users\digdr\Documents\coding\BikeApp3\BloggieToBike\BloggieToBike\obj\Debug\net7.0\ref\BloggieToBike.dll
+=======
+>>>>>>> Stashed changes
