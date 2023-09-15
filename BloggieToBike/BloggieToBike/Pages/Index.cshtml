@@ -1,4 +1,5 @@
 ﻿@page
+@using BloggieToBike.Pages.IndexModel;
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -7,14 +8,19 @@
 
 <section id="home" class="hero">
     <div class="hero-content">
-        <h1>Explore the Area on Two Wheels</h1>
-        <h4>Browse nice bike routes out of Oak Park in any direction, any length</h4>
-        <p>Join the members sections to add your own routes for the low price of $5</p>
+        <div class="hero-card">
+            <div class="card-body">
+                <h1>Explore the Area on Two Wheels!!!</h1>
+                <h4>Browse nice bike routes out of Oak Park in any direction, any length</h4>
+                <p>Join the members sections to add your own routes for the low price of $5</p>
+            </div>
+        </div>
+        
         <br />
         <a href="/events" class="cta-button">Upcoming Events</a>
     </div>
 </section>
-
+@* 
 <section id="about" class="about-section">
     <div class="about-content">
         <h2>About Us</h2>
@@ -42,10 +48,10 @@
     <h2>Contact Us</h2>
     <p>Have questions or ready to join an adventure? Get in touch with us!</p>
     <a href="mailto:info@cyclingadventures.com" class="cta-button">Email Us</a>
-</section>
+</section> *@
 
 
-<div class="container col-xxl-8 px-4 py-5">
+@* <div class="container col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-5 py-5">
         <div class="col-12 col-lg-6">
             <h1 class="display-5 fw-bold lh-1 mb-3">
@@ -62,44 +68,48 @@
                 class="d-block mx-lag-auto img-fluid width=400px" />
         </div>
     </div>
-</div>
+</div> *@
 
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-6">
 
-            <h2 class="mb-5 display-3">Blogs</h2>
+            <h2 class="mb-5 display-3">Popular</h2>
 
-            <div class="mb-5">
-                @if(Model.Tags != null && Model.Tags.Any())
+            @* <div class="mb-5">
                 {
-                    foreach (var tag in Model.Tags)
+                foreach (var item in Model.NewBikeRoute)
                     {
-                        <a href="/tags/@tag.Name">
+                        <a href="@item.Name">
                             <span class="badge bg-dark">@tag.Name</span>
 
                         </a>
                     }
                 }
-            </div>
+            </div> *@
 
-            @if (Model.Routes != null && Model.Routes.Any())
+            @if (Model.NewBikeRoute != null && Model.NewBikeRoute.Any())
             {
-                foreach (var route in Model.Routes)
+                @foreach (var route in Model.NewBikeRoute)
                 {
-                    <div class="mb-5 bg-light box-shadow">
-                        <img src="@route.FeaturedImageUrl" alt="@route.Name" class="mb-2 d-block img-fluid" />
+                    @if (route.Featured == true)
+                    {
+                        <div class="mb-5 bg-light box-shadow">
+                            @* <img src="@route.FeaturedImageUrl" alt="@route.Name" class="mb-2 d-block img-fluid" /> *@
+
                         <div class="px-4 py-4">
                             <h2 class="mb-2">@route.Name</h2>
                             <p>
-                                Author: @route.Author
-                                <br />
-                                Date Published: @route.PublishedDate.ToShortDateString()
+                                Length: @route.Length
+                                <br/>
+                                Direction: @route.Direction
                             </p>
                             <p class="mb-2">@route.ShortDescription</p>
-                            <a href="/blog/@route.StravaLink" class="btn btn-dark">Read More</a>
+                            <a href="/NewBikeRoutes/Details?id=@route.Id" class="btn btn-dark">Read More</a>
+                            <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="@route.StravaLink"></div>
                         </div>
                     </div>
+                    }
                 }
             }
         </div>

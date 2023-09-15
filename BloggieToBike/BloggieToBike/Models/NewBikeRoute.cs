@@ -1,4 +1,6 @@
-﻿namespace BloggieToBike.Models
+﻿using Microsoft.Extensions.Hosting;
+
+namespace BloggieToBike.Models
 {
     public class NewBikeRoute
     {
@@ -14,5 +16,7 @@
         public DateTime PublishedDate { get; set; }
         public string Author { get; set; }
         public bool Featured { get; set; }
+
+        public ICollection<Event>? Events { get; }
     }
 }
